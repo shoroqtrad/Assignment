@@ -1,0 +1,753 @@
+[2021-05-16 03:56:32,766] {scheduler_job.py:182} INFO - Started process (PID=84) to work on /opt/airflow/dags/dag.py
+[2021-05-16 03:56:32,772] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 03:56:32,783] {logging_mixin.py:104} INFO - [2021-05-16 03:56:32,783] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 03:59:28,225] {scheduler_job.py:182} INFO - Started process (PID=106) to work on /opt/airflow/dags/dag.py
+[2021-05-16 03:59:28,232] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 03:59:28,236] {logging_mixin.py:104} INFO - [2021-05-16 03:59:28,236] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:00:13,988] {logging_mixin.py:104} INFO - [2021-05-16 04:00:13,988] {timeout.py:36} ERROR - Process timed out, PID: 106
+[2021-05-16 04:00:14,139] {logging_mixin.py:104} WARNING - Exception ignored in: <function WeakValueDictionary.__init__.<locals>.remove at 0x7fb274d24ea0>
+[2021-05-16 04:00:14,152] {logging_mixin.py:104} WARNING - Traceback (most recent call last):
+[2021-05-16 04:00:14,153] {logging_mixin.py:104} WARNING -   File "/usr/local/lib/python3.6/weakref.py", line 109, in remove
+[2021-05-16 04:00:14,158] {logging_mixin.py:104} WARNING -     def remove(wr, selfref=ref(self), _atomic_removal=_remove_dead_weakref):
+[2021-05-16 04:00:14,161] {logging_mixin.py:104} WARNING -   File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+[2021-05-16 04:00:14,175] {logging_mixin.py:104} WARNING -     raise AirflowTaskTimeout(self.error_message)
+[2021-05-16 04:00:14,177] {logging_mixin.py:104} WARNING - airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/dag.py after 30.0s, PID: 106
+[2021-05-16 04:01:11,631] {scheduler_job.py:182} INFO - Started process (PID=138) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:01:11,639] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:01:11,643] {logging_mixin.py:104} INFO - [2021-05-16 04:01:11,642] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:01:25,563] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:01:25,606] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:01:26,562] {logging_mixin.py:104} INFO - [2021-05-16 04:01:26,561] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:01:26,586] {logging_mixin.py:104} INFO - [2021-05-16 04:01:26,586] {dag.py:1843} INFO - Creating ORM DAG for GAG_HW2
+[2021-05-16 04:01:26,605] {logging_mixin.py:104} INFO - [2021-05-16 04:01:26,604] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:01:26,692] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 15.071 seconds
+[2021-05-16 04:01:56,876] {scheduler_job.py:182} INFO - Started process (PID=172) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:01:57,088] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:01:57,090] {logging_mixin.py:104} INFO - [2021-05-16 04:01:57,090] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:01:58,103] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:01:58,162] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:01:58,719] {logging_mixin.py:104} INFO - [2021-05-16 04:01:58,717] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:01:58,818] {logging_mixin.py:104} INFO - [2021-05-16 04:01:58,817] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:01:58,915] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 2.051 seconds
+[2021-05-16 04:02:30,346] {scheduler_job.py:182} INFO - Started process (PID=200) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:02:30,352] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:02:30,355] {logging_mixin.py:104} INFO - [2021-05-16 04:02:30,354] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:02:31,821] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:02:31,895] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:02:33,310] {logging_mixin.py:104} INFO - [2021-05-16 04:02:33,309] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:02:33,478] {logging_mixin.py:104} INFO - [2021-05-16 04:02:33,477] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:02:33,631] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 3.298 seconds
+[2021-05-16 04:03:22,685] {scheduler_job.py:182} INFO - Started process (PID=228) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:03:22,691] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:03:22,696] {logging_mixin.py:104} INFO - [2021-05-16 04:03:22,695] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:03:46,047] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:03:46,092] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:03:52,136] {logging_mixin.py:104} INFO - [2021-05-16 04:03:52,134] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:03:52,288] {logging_mixin.py:104} INFO - [2021-05-16 04:03:52,287] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:03:52,460] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 29.783 seconds
+[2021-05-16 04:04:48,095] {scheduler_job.py:182} INFO - Started process (PID=256) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:04:48,099] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:04:48,112] {logging_mixin.py:104} INFO - [2021-05-16 04:04:48,112] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:05:01,205] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:05:01,271] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:05:04,020] {logging_mixin.py:104} INFO - [2021-05-16 04:05:04,020] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:05:04,074] {logging_mixin.py:104} INFO - [2021-05-16 04:05:04,074] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:05:04,135] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 16.048 seconds
+[2021-05-16 04:05:35,423] {scheduler_job.py:182} INFO - Started process (PID=285) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:05:35,464] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:05:35,472] {logging_mixin.py:104} INFO - [2021-05-16 04:05:35,470] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:05:54,450] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:05:56,954] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:06:12,224] {logging_mixin.py:104} INFO - [2021-05-16 04:06:12,224] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:06:13,293] {logging_mixin.py:104} INFO - [2021-05-16 04:06:13,292] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:06:13,372] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 38.969 seconds
+[2021-05-16 04:06:44,190] {scheduler_job.py:182} INFO - Started process (PID=315) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:06:44,200] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:06:44,203] {logging_mixin.py:104} INFO - [2021-05-16 04:06:44,202] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:07:04,512] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:07:04,549] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:07:05,852] {logging_mixin.py:104} INFO - [2021-05-16 04:07:05,851] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:07:05,913] {logging_mixin.py:104} INFO - [2021-05-16 04:07:05,912] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:07:05,980] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 21.799 seconds
+[2021-05-16 04:07:36,234] {scheduler_job.py:182} INFO - Started process (PID=343) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:07:36,244] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:07:36,246] {logging_mixin.py:104} INFO - [2021-05-16 04:07:36,245] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:07:37,140] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:07:37,162] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:07:37,400] {logging_mixin.py:104} INFO - [2021-05-16 04:07:37,399] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:07:37,439] {logging_mixin.py:104} INFO - [2021-05-16 04:07:37,438] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:07:37,469] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.242 seconds
+[2021-05-16 04:08:09,118] {scheduler_job.py:182} INFO - Started process (PID=374) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:08:09,129] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:08:09,131] {logging_mixin.py:104} INFO - [2021-05-16 04:08:09,131] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:08:10,422] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:08:11,439] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:08:18,434] {logging_mixin.py:104} INFO - [2021-05-16 04:08:18,433] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:08:18,504] {logging_mixin.py:104} INFO - [2021-05-16 04:08:18,504] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:08:18,567] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 9.456 seconds
+[2021-05-16 04:08:50,329] {scheduler_job.py:182} INFO - Started process (PID=402) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:08:50,333] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:08:50,342] {logging_mixin.py:104} INFO - [2021-05-16 04:08:50,342] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:08:52,233] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:08:52,253] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:08:52,569] {logging_mixin.py:104} INFO - [2021-05-16 04:08:52,568] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:08:52,642] {logging_mixin.py:104} INFO - [2021-05-16 04:08:52,642] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:08:52,703] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 2.381 seconds
+[2021-05-16 04:10:12,419] {scheduler_job.py:182} INFO - Started process (PID=443) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:10:12,423] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:10:12,425] {logging_mixin.py:104} INFO - [2021-05-16 04:10:12,425] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:10:16,848] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:10:16,874] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:10:17,283] {logging_mixin.py:104} INFO - [2021-05-16 04:10:17,283] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:10:21,345] {logging_mixin.py:104} INFO - [2021-05-16 04:10:21,345] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:10:21,460] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 9.052 seconds
+[2021-05-16 04:11:36,973] {scheduler_job.py:182} INFO - Started process (PID=474) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:11:36,977] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:11:36,987] {logging_mixin.py:104} INFO - [2021-05-16 04:11:36,983] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:11:46,775] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:11:47,516] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:11:49,331] {logging_mixin.py:104} INFO - [2021-05-16 04:11:49,330] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:11:49,427] {logging_mixin.py:104} INFO - [2021-05-16 04:11:49,427] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:11:49,740] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 12.774 seconds
+[2021-05-16 04:13:44,501] {scheduler_job.py:182} INFO - Started process (PID=511) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:13:44,513] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:13:44,517] {logging_mixin.py:104} INFO - [2021-05-16 04:13:44,517] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:13:49,216] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:13:49,238] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:13:53,349] {logging_mixin.py:104} INFO - [2021-05-16 04:13:53,349] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:13:53,399] {logging_mixin.py:104} INFO - [2021-05-16 04:13:53,398] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:13:53,440] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 8.957 seconds
+[2021-05-16 04:14:25,946] {scheduler_job.py:182} INFO - Started process (PID=541) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:14:25,950] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:14:25,954] {logging_mixin.py:104} INFO - [2021-05-16 04:14:25,953] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:14:26,967] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:14:27,002] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:14:27,517] {logging_mixin.py:104} INFO - [2021-05-16 04:14:27,517] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:14:27,577] {logging_mixin.py:104} INFO - [2021-05-16 04:14:27,577] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:14:27,621] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.682 seconds
+[2021-05-16 04:14:57,988] {scheduler_job.py:182} INFO - Started process (PID=570) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:14:57,991] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:14:57,993] {logging_mixin.py:104} INFO - [2021-05-16 04:14:57,993] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:14:59,032] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:14:59,063] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:14:59,365] {logging_mixin.py:104} INFO - [2021-05-16 04:14:59,364] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:14:59,440] {logging_mixin.py:104} INFO - [2021-05-16 04:14:59,439] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:14:59,501] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.523 seconds
+[2021-05-16 04:15:42,820] {scheduler_job.py:182} INFO - Started process (PID=597) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:15:42,825] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:15:42,828] {logging_mixin.py:104} INFO - [2021-05-16 04:15:42,828] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:15:57,264] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:16:10,285] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:16:10,787] {logging_mixin.py:104} INFO - [2021-05-16 04:16:10,786] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:16:10,848] {logging_mixin.py:104} INFO - [2021-05-16 04:16:10,848] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:16:10,915] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 28.102 seconds
+[2021-05-16 04:16:41,580] {scheduler_job.py:182} INFO - Started process (PID=626) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:16:41,583] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:16:41,586] {logging_mixin.py:104} INFO - [2021-05-16 04:16:41,586] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:16:42,732] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:16:42,761] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:16:43,054] {logging_mixin.py:104} INFO - [2021-05-16 04:16:43,053] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:16:43,102] {logging_mixin.py:104} INFO - [2021-05-16 04:16:43,102] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:16:43,160] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.587 seconds
+[2021-05-16 04:17:15,301] {scheduler_job.py:182} INFO - Started process (PID=656) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:17:15,305] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:17:15,312] {logging_mixin.py:104} INFO - [2021-05-16 04:17:15,312] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:17:16,334] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:17:16,358] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:17:16,610] {logging_mixin.py:104} INFO - [2021-05-16 04:17:16,610] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:17:16,666] {logging_mixin.py:104} INFO - [2021-05-16 04:17:16,666] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:17:16,735] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.442 seconds
+[2021-05-16 04:17:57,502] {scheduler_job.py:182} INFO - Started process (PID=697) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:17:57,505] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:17:57,508] {logging_mixin.py:104} INFO - [2021-05-16 04:17:57,507] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:17:58,405] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:17:58,428] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:17:58,664] {logging_mixin.py:104} INFO - [2021-05-16 04:17:58,664] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:17:58,733] {logging_mixin.py:104} INFO - [2021-05-16 04:17:58,733] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:17:58,798] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.307 seconds
+[2021-05-16 04:18:29,109] {scheduler_job.py:182} INFO - Started process (PID=726) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:18:29,115] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:18:29,116] {logging_mixin.py:104} INFO - [2021-05-16 04:18:29,116] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:18:30,114] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:18:30,134] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:18:30,339] {logging_mixin.py:104} INFO - [2021-05-16 04:18:30,339] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:18:30,370] {logging_mixin.py:104} INFO - [2021-05-16 04:18:30,370] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:18:30,417] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.315 seconds
+[2021-05-16 04:19:33,230] {scheduler_job.py:182} INFO - Started process (PID=754) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:19:33,236] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:19:33,241] {logging_mixin.py:104} INFO - [2021-05-16 04:19:33,240] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:19:34,748] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:19:34,776] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:19:35,038] {logging_mixin.py:104} INFO - [2021-05-16 04:19:35,037] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:19:35,097] {logging_mixin.py:104} INFO - [2021-05-16 04:19:35,097] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:19:35,146] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.933 seconds
+[2021-05-16 04:20:05,551] {scheduler_job.py:182} INFO - Started process (PID=784) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:20:05,554] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:20:05,556] {logging_mixin.py:104} INFO - [2021-05-16 04:20:05,555] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:20:06,218] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:20:06,237] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:20:06,420] {logging_mixin.py:104} INFO - [2021-05-16 04:20:06,419] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:20:06,453] {logging_mixin.py:104} INFO - [2021-05-16 04:20:06,453] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:20:06,491] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.946 seconds
+[2021-05-16 04:20:36,663] {scheduler_job.py:182} INFO - Started process (PID=812) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:20:36,667] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:20:36,668] {logging_mixin.py:104} INFO - [2021-05-16 04:20:36,668] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:20:37,304] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:20:37,324] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:20:37,525] {logging_mixin.py:104} INFO - [2021-05-16 04:20:37,525] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:20:37,566] {logging_mixin.py:104} INFO - [2021-05-16 04:20:37,565] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:20:37,606] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.950 seconds
+[2021-05-16 04:21:07,663] {scheduler_job.py:182} INFO - Started process (PID=839) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:21:07,673] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:21:07,675] {logging_mixin.py:104} INFO - [2021-05-16 04:21:07,675] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:21:08,307] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:21:08,325] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:21:08,518] {logging_mixin.py:104} INFO - [2021-05-16 04:21:08,517] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:21:08,556] {logging_mixin.py:104} INFO - [2021-05-16 04:21:08,556] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:21:08,593] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.936 seconds
+[2021-05-16 04:22:03,443] {scheduler_job.py:182} INFO - Started process (PID=869) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:22:03,447] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:22:03,449] {logging_mixin.py:104} INFO - [2021-05-16 04:22:03,448] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:22:04,285] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:22:04,303] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:22:04,515] {logging_mixin.py:104} INFO - [2021-05-16 04:22:04,515] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:22:04,557] {logging_mixin.py:104} INFO - [2021-05-16 04:22:04,557] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:22:04,587] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.150 seconds
+[2021-05-16 04:22:41,748] {scheduler_job.py:182} INFO - Started process (PID=898) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:22:41,751] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:22:41,753] {logging_mixin.py:104} INFO - [2021-05-16 04:22:41,753] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:22:42,625] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:22:42,653] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:22:42,987] {logging_mixin.py:104} INFO - [2021-05-16 04:22:42,987] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:22:43,860] {logging_mixin.py:104} INFO - [2021-05-16 04:22:43,860] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:22:43,905] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 2.162 seconds
+[2021-05-16 04:23:14,049] {scheduler_job.py:182} INFO - Started process (PID=927) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:23:14,053] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:23:14,055] {logging_mixin.py:104} INFO - [2021-05-16 04:23:14,055] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:23:14,799] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:23:14,819] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:23:15,041] {logging_mixin.py:104} INFO - [2021-05-16 04:23:15,041] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:23:15,120] {logging_mixin.py:104} INFO - [2021-05-16 04:23:15,120] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:23:15,266] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.224 seconds
+[2021-05-16 04:23:48,030] {scheduler_job.py:182} INFO - Started process (PID=959) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:23:48,034] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:23:48,035] {logging_mixin.py:104} INFO - [2021-05-16 04:23:48,035] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:23:53,513] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:23:57,287] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:24:00,978] {logging_mixin.py:104} INFO - [2021-05-16 04:24:00,978] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:24:01,027] {logging_mixin.py:104} INFO - [2021-05-16 04:24:01,026] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:24:01,082] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 13.060 seconds
+[2021-05-16 04:24:31,962] {scheduler_job.py:182} INFO - Started process (PID=989) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:24:31,965] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:24:31,966] {logging_mixin.py:104} INFO - [2021-05-16 04:24:31,966] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:24:32,484] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:24:32,500] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:24:32,634] {logging_mixin.py:104} INFO - [2021-05-16 04:24:32,634] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:24:32,673] {logging_mixin.py:104} INFO - [2021-05-16 04:24:32,673] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:24:32,722] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.763 seconds
+[2021-05-16 04:25:03,402] {scheduler_job.py:182} INFO - Started process (PID=1014) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:25:03,406] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:25:03,409] {logging_mixin.py:104} INFO - [2021-05-16 04:25:03,408] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:25:04,281] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:25:04,303] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:25:04,509] {logging_mixin.py:104} INFO - [2021-05-16 04:25:04,509] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:25:04,560] {logging_mixin.py:104} INFO - [2021-05-16 04:25:04,559] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:25:04,610] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.215 seconds
+[2021-05-16 04:25:35,074] {scheduler_job.py:182} INFO - Started process (PID=1042) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:25:35,078] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:25:35,081] {logging_mixin.py:104} INFO - [2021-05-16 04:25:35,080] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:25:36,141] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:25:36,156] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:25:36,324] {logging_mixin.py:104} INFO - [2021-05-16 04:25:36,324] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:25:36,365] {logging_mixin.py:104} INFO - [2021-05-16 04:25:36,365] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:25:36,404] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.345 seconds
+[2021-05-16 04:26:06,729] {scheduler_job.py:182} INFO - Started process (PID=1068) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:26:06,735] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:26:06,738] {logging_mixin.py:104} INFO - [2021-05-16 04:26:06,737] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:26:09,565] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:26:09,593] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:26:10,418] {logging_mixin.py:104} INFO - [2021-05-16 04:26:10,418] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:26:10,485] {logging_mixin.py:104} INFO - [2021-05-16 04:26:10,485] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:26:10,584] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 3.861 seconds
+[2021-05-16 04:26:40,815] {scheduler_job.py:182} INFO - Started process (PID=1096) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:26:40,817] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:26:40,819] {logging_mixin.py:104} INFO - [2021-05-16 04:26:40,819] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:26:41,528] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:26:41,550] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:26:41,727] {logging_mixin.py:104} INFO - [2021-05-16 04:26:41,727] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:26:41,760] {logging_mixin.py:104} INFO - [2021-05-16 04:26:41,760] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:26:41,789] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.980 seconds
+[2021-05-16 04:27:12,703] {scheduler_job.py:182} INFO - Started process (PID=1124) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:27:12,709] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:27:12,711] {logging_mixin.py:104} INFO - [2021-05-16 04:27:12,710] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:27:13,785] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:27:13,812] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:27:14,076] {logging_mixin.py:104} INFO - [2021-05-16 04:27:14,076] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:27:14,114] {logging_mixin.py:104} INFO - [2021-05-16 04:27:14,113] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:27:14,153] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.456 seconds
+[2021-05-16 04:27:45,155] {scheduler_job.py:182} INFO - Started process (PID=1151) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:27:45,159] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:27:45,160] {logging_mixin.py:104} INFO - [2021-05-16 04:27:45,160] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:27:45,790] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:27:45,803] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:27:45,945] {logging_mixin.py:104} INFO - [2021-05-16 04:27:45,944] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:27:45,970] {logging_mixin.py:104} INFO - [2021-05-16 04:27:45,970] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:27:46,007] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.856 seconds
+[2021-05-16 04:28:16,112] {scheduler_job.py:182} INFO - Started process (PID=1178) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:28:16,114] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:28:16,116] {logging_mixin.py:104} INFO - [2021-05-16 04:28:16,116] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:28:17,102] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:28:17,125] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:28:17,327] {logging_mixin.py:104} INFO - [2021-05-16 04:28:17,327] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:28:17,364] {logging_mixin.py:104} INFO - [2021-05-16 04:28:17,364] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:28:17,396] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.292 seconds
+[2021-05-16 04:28:47,786] {scheduler_job.py:182} INFO - Started process (PID=1207) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:28:47,800] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:28:47,832] {logging_mixin.py:104} INFO - [2021-05-16 04:28:47,831] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:28:49,034] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:28:49,058] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:28:49,292] {logging_mixin.py:104} INFO - [2021-05-16 04:28:49,291] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:28:49,341] {logging_mixin.py:104} INFO - [2021-05-16 04:28:49,341] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:28:49,374] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.604 seconds
+[2021-05-16 04:29:19,937] {scheduler_job.py:182} INFO - Started process (PID=1235) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:29:19,944] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:29:19,947] {logging_mixin.py:104} INFO - [2021-05-16 04:29:19,947] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:29:21,243] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:29:21,778] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:29:22,385] {logging_mixin.py:104} INFO - [2021-05-16 04:29:22,385] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:29:22,420] {logging_mixin.py:104} INFO - [2021-05-16 04:29:22,419] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:29:22,459] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 2.527 seconds
+[2021-05-16 04:29:52,749] {scheduler_job.py:182} INFO - Started process (PID=1262) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:29:52,751] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:29:52,753] {logging_mixin.py:104} INFO - [2021-05-16 04:29:52,753] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:29:53,486] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:29:53,505] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:29:53,738] {logging_mixin.py:104} INFO - [2021-05-16 04:29:53,737] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:29:53,785] {logging_mixin.py:104} INFO - [2021-05-16 04:29:53,785] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:29:53,823] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.079 seconds
+[2021-05-16 04:30:26,638] {scheduler_job.py:182} INFO - Started process (PID=1290) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:30:26,641] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:30:26,643] {logging_mixin.py:104} INFO - [2021-05-16 04:30:26,643] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:30:32,166] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:30:32,236] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:30:36,978] {logging_mixin.py:104} INFO - [2021-05-16 04:30:36,977] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:30:37,132] {logging_mixin.py:104} INFO - [2021-05-16 04:30:37,132] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:30:44,989] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 19.833 seconds
+[2021-05-16 04:31:15,583] {scheduler_job.py:182} INFO - Started process (PID=1319) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:31:15,588] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:31:15,590] {logging_mixin.py:104} INFO - [2021-05-16 04:31:15,589] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:31:16,520] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:31:16,547] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:31:16,749] {logging_mixin.py:104} INFO - [2021-05-16 04:31:16,748] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:31:16,804] {logging_mixin.py:104} INFO - [2021-05-16 04:31:16,804] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:31:16,849] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.273 seconds
+[2021-05-16 04:31:47,055] {scheduler_job.py:182} INFO - Started process (PID=1347) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:31:47,059] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:31:47,060] {logging_mixin.py:104} INFO - [2021-05-16 04:31:47,060] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:31:47,790] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:31:47,824] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:31:48,090] {logging_mixin.py:104} INFO - [2021-05-16 04:31:48,089] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:31:48,135] {logging_mixin.py:104} INFO - [2021-05-16 04:31:48,135] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:31:48,167] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.116 seconds
+[2021-05-16 04:32:18,902] {scheduler_job.py:182} INFO - Started process (PID=1377) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:32:18,905] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:32:18,907] {logging_mixin.py:104} INFO - [2021-05-16 04:32:18,907] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:32:19,625] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:32:19,644] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:32:19,836] {logging_mixin.py:104} INFO - [2021-05-16 04:32:19,836] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:32:19,876] {logging_mixin.py:104} INFO - [2021-05-16 04:32:19,875] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:32:19,916] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.019 seconds
+[2021-05-16 04:32:58,687] {scheduler_job.py:182} INFO - Started process (PID=1416) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:32:58,690] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:32:58,692] {logging_mixin.py:104} INFO - [2021-05-16 04:32:58,692] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:33:07,225] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:33:07,259] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:33:07,552] {logging_mixin.py:104} INFO - [2021-05-16 04:33:07,552] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:33:07,603] {logging_mixin.py:104} INFO - [2021-05-16 04:33:07,603] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:33:08,048] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 9.369 seconds
+[2021-05-16 04:33:38,224] {scheduler_job.py:182} INFO - Started process (PID=1448) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:33:38,228] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:33:38,230] {logging_mixin.py:104} INFO - [2021-05-16 04:33:38,230] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:33:38,860] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:33:38,879] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:33:39,060] {logging_mixin.py:104} INFO - [2021-05-16 04:33:39,060] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:33:39,091] {logging_mixin.py:104} INFO - [2021-05-16 04:33:39,090] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:33:39,124] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.905 seconds
+[2021-05-16 04:34:24,571] {scheduler_job.py:182} INFO - Started process (PID=1475) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:34:24,574] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:34:24,575] {logging_mixin.py:104} INFO - [2021-05-16 04:34:24,575] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:34:26,372] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:34:26,393] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:34:27,066] {logging_mixin.py:104} INFO - [2021-05-16 04:34:27,066] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:34:27,135] {logging_mixin.py:104} INFO - [2021-05-16 04:34:27,135] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:34:27,180] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 6.057 seconds
+[2021-05-16 04:34:57,470] {scheduler_job.py:182} INFO - Started process (PID=1506) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:34:57,473] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:34:57,475] {logging_mixin.py:104} INFO - [2021-05-16 04:34:57,474] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:34:58,259] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:34:58,276] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:34:58,475] {logging_mixin.py:104} INFO - [2021-05-16 04:34:58,475] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:34:58,510] {logging_mixin.py:104} INFO - [2021-05-16 04:34:58,510] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:34:58,550] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.086 seconds
+[2021-05-16 04:35:28,699] {scheduler_job.py:182} INFO - Started process (PID=1533) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:35:28,703] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:35:28,705] {logging_mixin.py:104} INFO - [2021-05-16 04:35:28,705] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:35:29,332] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:35:29,349] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:35:29,565] {logging_mixin.py:104} INFO - [2021-05-16 04:35:29,564] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:35:29,603] {logging_mixin.py:104} INFO - [2021-05-16 04:35:29,603] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:35:29,655] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.961 seconds
+[2021-05-16 04:36:01,302] {scheduler_job.py:182} INFO - Started process (PID=1565) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:36:01,305] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:36:01,307] {logging_mixin.py:104} INFO - [2021-05-16 04:36:01,306] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:36:01,945] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:36:01,961] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:36:02,155] {logging_mixin.py:104} INFO - [2021-05-16 04:36:02,155] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:36:02,190] {logging_mixin.py:104} INFO - [2021-05-16 04:36:02,190] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:36:02,219] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.921 seconds
+[2021-05-16 04:36:34,029] {scheduler_job.py:182} INFO - Started process (PID=1597) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:36:34,032] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:36:34,034] {logging_mixin.py:104} INFO - [2021-05-16 04:36:34,034] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:36:34,648] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:36:34,667] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:36:34,853] {logging_mixin.py:104} INFO - [2021-05-16 04:36:34,852] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:36:34,886] {logging_mixin.py:104} INFO - [2021-05-16 04:36:34,886] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:36:34,916] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.893 seconds
+[2021-05-16 04:37:05,793] {scheduler_job.py:182} INFO - Started process (PID=1625) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:37:05,800] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:37:05,808] {logging_mixin.py:104} INFO - [2021-05-16 04:37:05,803] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:37:07,317] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:37:07,340] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:37:07,752] {logging_mixin.py:104} INFO - [2021-05-16 04:37:07,751] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:37:07,799] {logging_mixin.py:104} INFO - [2021-05-16 04:37:07,799] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:37:07,963] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 2.179 seconds
+[2021-05-16 04:37:38,523] {scheduler_job.py:182} INFO - Started process (PID=1654) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:37:38,531] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:37:38,535] {logging_mixin.py:104} INFO - [2021-05-16 04:37:38,535] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:37:39,786] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:37:39,825] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:37:40,071] {logging_mixin.py:104} INFO - [2021-05-16 04:37:40,071] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:37:40,109] {logging_mixin.py:104} INFO - [2021-05-16 04:37:40,109] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:37:40,171] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.659 seconds
+[2021-05-16 04:38:10,898] {scheduler_job.py:182} INFO - Started process (PID=1683) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:38:10,903] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:38:10,905] {logging_mixin.py:104} INFO - [2021-05-16 04:38:10,904] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:38:11,785] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:38:12,060] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:38:12,308] {logging_mixin.py:104} INFO - [2021-05-16 04:38:12,307] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:38:12,347] {logging_mixin.py:104} INFO - [2021-05-16 04:38:12,347] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:38:12,396] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.508 seconds
+[2021-05-16 04:38:42,690] {scheduler_job.py:182} INFO - Started process (PID=1711) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:38:42,714] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:38:42,727] {logging_mixin.py:104} INFO - [2021-05-16 04:38:42,726] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:38:43,515] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:38:43,535] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:38:43,725] {logging_mixin.py:104} INFO - [2021-05-16 04:38:43,725] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:38:43,762] {logging_mixin.py:104} INFO - [2021-05-16 04:38:43,762] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:38:43,824] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.139 seconds
+[2021-05-16 04:39:14,686] {scheduler_job.py:182} INFO - Started process (PID=1739) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:39:14,705] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:39:14,708] {logging_mixin.py:104} INFO - [2021-05-16 04:39:14,707] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:39:16,136] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:39:16,157] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:39:16,409] {logging_mixin.py:104} INFO - [2021-05-16 04:39:16,409] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:39:16,448] {logging_mixin.py:104} INFO - [2021-05-16 04:39:16,448] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:39:16,517] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.842 seconds
+[2021-05-16 04:39:47,017] {scheduler_job.py:182} INFO - Started process (PID=1766) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:39:47,021] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:39:47,022] {logging_mixin.py:104} INFO - [2021-05-16 04:39:47,022] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:39:47,651] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:39:47,682] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:39:47,895] {logging_mixin.py:104} INFO - [2021-05-16 04:39:47,895] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:39:47,934] {logging_mixin.py:104} INFO - [2021-05-16 04:39:47,934] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:39:47,976] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.964 seconds
+[2021-05-16 04:40:18,269] {scheduler_job.py:182} INFO - Started process (PID=1793) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:40:18,278] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:40:18,283] {logging_mixin.py:104} INFO - [2021-05-16 04:40:18,283] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:40:19,219] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:40:19,236] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:40:19,429] {logging_mixin.py:104} INFO - [2021-05-16 04:40:19,429] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:40:19,463] {logging_mixin.py:104} INFO - [2021-05-16 04:40:19,463] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:40:19,504] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.248 seconds
+[2021-05-16 04:40:53,263] {scheduler_job.py:182} INFO - Started process (PID=1819) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:40:53,268] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:40:53,270] {logging_mixin.py:104} INFO - [2021-05-16 04:40:53,270] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:40:54,447] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:40:54,477] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:40:54,716] {logging_mixin.py:104} INFO - [2021-05-16 04:40:54,716] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:40:54,771] {logging_mixin.py:104} INFO - [2021-05-16 04:40:54,771] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:40:54,806] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.568 seconds
+[2021-05-16 04:41:28,063] {scheduler_job.py:182} INFO - Started process (PID=1847) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:41:28,066] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:41:28,069] {logging_mixin.py:104} INFO - [2021-05-16 04:41:28,068] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:41:29,856] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:41:29,874] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:41:31,603] {logging_mixin.py:104} INFO - [2021-05-16 04:41:31,602] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:41:31,680] {logging_mixin.py:104} INFO - [2021-05-16 04:41:31,680] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:41:31,728] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 3.671 seconds
+[2021-05-16 04:42:01,992] {scheduler_job.py:182} INFO - Started process (PID=1874) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:42:01,995] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:42:01,996] {logging_mixin.py:104} INFO - [2021-05-16 04:42:01,996] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:42:02,742] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:42:02,762] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:42:02,948] {logging_mixin.py:104} INFO - [2021-05-16 04:42:02,948] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:42:02,985] {logging_mixin.py:104} INFO - [2021-05-16 04:42:02,985] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:42:03,028] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.040 seconds
+[2021-05-16 04:42:48,252] {scheduler_job.py:182} INFO - Started process (PID=1892) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:42:48,272] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:42:48,275] {logging_mixin.py:104} INFO - [2021-05-16 04:42:48,275] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:42:49,390] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:42:49,420] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:42:49,952] {logging_mixin.py:104} INFO - [2021-05-16 04:42:49,952] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:42:50,074] {logging_mixin.py:104} INFO - [2021-05-16 04:42:50,074] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:42:50,209] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.999 seconds
+[2021-05-16 04:43:40,772] {scheduler_job.py:182} INFO - Started process (PID=49) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:43:40,776] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:43:40,778] {logging_mixin.py:104} INFO - [2021-05-16 04:43:40,778] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:43:47,998] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:43:53,855] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:43:54,160] {logging_mixin.py:104} INFO - [2021-05-16 04:43:54,160] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:43:59,168] {logging_mixin.py:104} INFO - [2021-05-16 04:43:59,168] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:43:59,271] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 18.505 seconds
+[2021-05-16 04:44:29,510] {scheduler_job.py:182} INFO - Started process (PID=79) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:44:29,516] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:44:29,519] {logging_mixin.py:104} INFO - [2021-05-16 04:44:29,518] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:44:32,546] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:44:32,582] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:44:32,874] {logging_mixin.py:104} INFO - [2021-05-16 04:44:32,873] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:44:32,934] {logging_mixin.py:104} INFO - [2021-05-16 04:44:32,933] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:44:33,005] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 3.503 seconds
+[2021-05-16 04:45:05,945] {scheduler_job.py:182} INFO - Started process (PID=109) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:45:05,948] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:45:05,952] {logging_mixin.py:104} INFO - [2021-05-16 04:45:05,951] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:45:09,179] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:45:09,199] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:45:09,446] {logging_mixin.py:104} INFO - [2021-05-16 04:45:09,446] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:45:09,492] {logging_mixin.py:104} INFO - [2021-05-16 04:45:09,492] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:45:09,574] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 3.635 seconds
+[2021-05-16 04:46:00,576] {scheduler_job.py:182} INFO - Started process (PID=143) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:46:00,580] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:46:00,583] {logging_mixin.py:104} INFO - [2021-05-16 04:46:00,582] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:46:26,048] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:46:26,506] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:46:33,945] {logging_mixin.py:104} INFO - [2021-05-16 04:46:33,945] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:46:34,119] {logging_mixin.py:104} INFO - [2021-05-16 04:46:34,118] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:46:34,372] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 33.807 seconds
+[2021-05-16 04:47:29,985] {scheduler_job.py:182} INFO - Started process (PID=186) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:47:29,988] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:47:29,990] {logging_mixin.py:104} INFO - [2021-05-16 04:47:29,990] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:47:41,065] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:47:41,827] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:47:57,423] {logging_mixin.py:104} INFO - [2021-05-16 04:47:57,422] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:47:57,591] {logging_mixin.py:104} INFO - [2021-05-16 04:47:57,590] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:47:57,646] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 27.669 seconds
+[2021-05-16 04:50:00,311] {scheduler_job.py:182} INFO - Started process (PID=214) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:50:00,324] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:50:00,326] {logging_mixin.py:104} INFO - [2021-05-16 04:50:00,325] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:50:11,004] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:50:11,577] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:50:16,339] {scheduler_job.py:596} INFO - Executed failure callback for <TaskInstance: GAG_HW2.ID_generator 2021-05-16 04:47:23.580087+00:00 [failed]> in state failed
+[2021-05-16 04:50:16,381] {logging_mixin.py:104} INFO - [2021-05-16 04:50:16,380] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:50:16,485] {logging_mixin.py:104} INFO - [2021-05-16 04:50:16,484] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:50:16,544] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 16.241 seconds
+[2021-05-16 04:50:58,151] {scheduler_job.py:182} INFO - Started process (PID=244) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:50:58,154] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:50:58,169] {logging_mixin.py:104} INFO - [2021-05-16 04:50:58,169] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:51:11,072] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:51:11,145] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:51:24,704] {logging_mixin.py:104} INFO - [2021-05-16 04:51:24,398] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:51:24,830] {logging_mixin.py:104} INFO - [2021-05-16 04:51:24,830] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:51:24,984] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 26.848 seconds
+[2021-05-16 04:52:08,112] {scheduler_job.py:182} INFO - Started process (PID=270) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:52:08,116] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:52:08,118] {logging_mixin.py:104} INFO - [2021-05-16 04:52:08,117] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:52:09,275] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:52:09,302] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:52:09,822] {logging_mixin.py:104} INFO - [2021-05-16 04:52:09,822] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:52:10,107] {logging_mixin.py:104} INFO - [2021-05-16 04:52:10,106] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:52:10,194] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 2.088 seconds
+[2021-05-16 04:52:40,508] {scheduler_job.py:182} INFO - Started process (PID=298) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:52:40,513] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:52:40,516] {logging_mixin.py:104} INFO - [2021-05-16 04:52:40,515] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:52:41,481] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:52:41,505] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:52:41,841] {logging_mixin.py:104} INFO - [2021-05-16 04:52:41,841] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:52:41,907] {logging_mixin.py:104} INFO - [2021-05-16 04:52:41,906] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:52:41,982] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.487 seconds
+[2021-05-16 04:53:12,136] {scheduler_job.py:182} INFO - Started process (PID=325) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:53:12,139] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:53:12,141] {logging_mixin.py:104} INFO - [2021-05-16 04:53:12,141] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:53:13,764] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:53:13,777] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:53:14,474] {logging_mixin.py:104} INFO - [2021-05-16 04:53:14,474] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:53:14,520] {logging_mixin.py:104} INFO - [2021-05-16 04:53:14,520] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:53:14,596] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 2.465 seconds
+[2021-05-16 04:53:45,665] {scheduler_job.py:182} INFO - Started process (PID=353) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:53:45,671] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:53:45,675] {logging_mixin.py:104} INFO - [2021-05-16 04:53:45,674] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:53:46,983] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:53:47,034] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:53:47,424] {logging_mixin.py:104} INFO - [2021-05-16 04:53:47,424] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:53:47,502] {logging_mixin.py:104} INFO - [2021-05-16 04:53:47,502] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:53:47,552] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.896 seconds
+[2021-05-16 04:54:18,245] {scheduler_job.py:182} INFO - Started process (PID=381) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:54:18,250] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:54:18,252] {logging_mixin.py:104} INFO - [2021-05-16 04:54:18,251] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:54:19,120] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:54:19,134] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:54:19,317] {logging_mixin.py:104} INFO - [2021-05-16 04:54:19,316] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:54:19,360] {logging_mixin.py:104} INFO - [2021-05-16 04:54:19,360] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:54:19,398] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.166 seconds
+[2021-05-16 04:54:49,600] {scheduler_job.py:182} INFO - Started process (PID=408) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:54:49,603] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:54:49,605] {logging_mixin.py:104} INFO - [2021-05-16 04:54:49,605] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:54:50,793] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:54:50,805] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:54:51,090] {logging_mixin.py:104} INFO - [2021-05-16 04:54:51,089] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:54:51,124] {logging_mixin.py:104} INFO - [2021-05-16 04:54:51,123] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:54:51,165] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.570 seconds
+[2021-05-16 04:55:21,462] {scheduler_job.py:182} INFO - Started process (PID=435) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:55:21,468] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:55:21,472] {logging_mixin.py:104} INFO - [2021-05-16 04:55:21,472] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:55:22,775] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:55:22,799] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:55:23,062] {logging_mixin.py:104} INFO - [2021-05-16 04:55:23,062] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:55:23,122] {logging_mixin.py:104} INFO - [2021-05-16 04:55:23,122] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:55:23,178] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.724 seconds
+[2021-05-16 04:55:53,996] {scheduler_job.py:182} INFO - Started process (PID=462) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:55:54,001] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:55:54,005] {logging_mixin.py:104} INFO - [2021-05-16 04:55:54,005] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:55:54,774] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:55:54,785] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:55:54,996] {logging_mixin.py:104} INFO - [2021-05-16 04:55:54,996] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:55:55,068] {logging_mixin.py:104} INFO - [2021-05-16 04:55:55,068] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:55:55,118] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.127 seconds
+[2021-05-16 04:56:25,675] {scheduler_job.py:182} INFO - Started process (PID=489) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:56:25,678] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:56:25,680] {logging_mixin.py:104} INFO - [2021-05-16 04:56:25,680] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:56:29,822] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:56:29,837] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:56:31,105] {logging_mixin.py:104} INFO - [2021-05-16 04:56:31,104] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:56:31,383] {logging_mixin.py:104} INFO - [2021-05-16 04:56:31,383] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:56:31,448] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 5.786 seconds
+[2021-05-16 04:57:01,552] {scheduler_job.py:182} INFO - Started process (PID=516) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:57:01,557] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:57:01,559] {logging_mixin.py:104} INFO - [2021-05-16 04:57:01,559] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:57:02,427] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:57:02,454] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:57:02,734] {logging_mixin.py:104} INFO - [2021-05-16 04:57:02,734] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:57:02,790] {logging_mixin.py:104} INFO - [2021-05-16 04:57:02,790] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:57:02,849] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.306 seconds
+[2021-05-16 04:57:33,007] {scheduler_job.py:182} INFO - Started process (PID=543) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:57:33,010] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:57:33,012] {logging_mixin.py:104} INFO - [2021-05-16 04:57:33,012] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:57:34,470] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:57:34,490] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:57:34,821] {logging_mixin.py:104} INFO - [2021-05-16 04:57:34,821] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:57:34,927] {logging_mixin.py:104} INFO - [2021-05-16 04:57:34,927] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:57:35,037] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 2.036 seconds
+[2021-05-16 04:58:48,507] {scheduler_job.py:182} INFO - Started process (PID=571) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:58:48,511] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:58:48,514] {logging_mixin.py:104} INFO - [2021-05-16 04:58:48,513] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:59:03,291] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:59:03,384] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:59:04,310] {logging_mixin.py:104} INFO - [2021-05-16 04:59:04,310] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:59:04,433] {logging_mixin.py:104} INFO - [2021-05-16 04:59:04,432] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:59:04,581] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 16.081 seconds
+[2021-05-16 04:59:34,669] {scheduler_job.py:182} INFO - Started process (PID=600) to work on /opt/airflow/dags/dag.py
+[2021-05-16 04:59:34,674] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 04:59:34,676] {logging_mixin.py:104} INFO - [2021-05-16 04:59:34,675] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 04:59:35,447] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 04:59:35,458] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 04:59:35,661] {logging_mixin.py:104} INFO - [2021-05-16 04:59:35,661] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 04:59:35,700] {logging_mixin.py:104} INFO - [2021-05-16 04:59:35,700] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 04:59:35,747] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.086 seconds
+[2021-05-16 05:00:06,490] {scheduler_job.py:182} INFO - Started process (PID=627) to work on /opt/airflow/dags/dag.py
+[2021-05-16 05:00:06,493] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 05:00:06,495] {logging_mixin.py:104} INFO - [2021-05-16 05:00:06,495] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 05:00:06,942] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 05:00:06,952] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 05:00:07,084] {logging_mixin.py:104} INFO - [2021-05-16 05:00:07,084] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 05:00:07,109] {logging_mixin.py:104} INFO - [2021-05-16 05:00:07,109] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 05:00:07,144] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.659 seconds
+[2021-05-16 05:00:37,691] {scheduler_job.py:182} INFO - Started process (PID=654) to work on /opt/airflow/dags/dag.py
+[2021-05-16 05:00:37,693] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 05:00:37,695] {logging_mixin.py:104} INFO - [2021-05-16 05:00:37,695] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 05:00:38,405] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 05:00:39,327] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 05:00:39,503] {logging_mixin.py:104} INFO - [2021-05-16 05:00:39,503] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 05:00:39,531] {logging_mixin.py:104} INFO - [2021-05-16 05:00:39,531] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 05:00:39,565] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.879 seconds
+[2021-05-16 05:01:10,340] {scheduler_job.py:182} INFO - Started process (PID=682) to work on /opt/airflow/dags/dag.py
+[2021-05-16 05:01:10,343] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 05:01:10,345] {logging_mixin.py:104} INFO - [2021-05-16 05:01:10,345] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 05:01:11,014] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 05:01:11,034] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 05:01:11,178] {logging_mixin.py:104} INFO - [2021-05-16 05:01:11,178] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 05:01:11,213] {logging_mixin.py:104} INFO - [2021-05-16 05:01:11,213] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 05:01:11,247] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 0.912 seconds
+[2021-05-16 05:01:41,814] {scheduler_job.py:182} INFO - Started process (PID=710) to work on /opt/airflow/dags/dag.py
+[2021-05-16 05:01:41,818] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 05:01:41,820] {logging_mixin.py:104} INFO - [2021-05-16 05:01:41,820] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 05:01:42,576] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-05-16 05:01:42,588] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['GAG_HW2']) retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 05:01:42,870] {logging_mixin.py:104} INFO - [2021-05-16 05:01:42,869] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-05-16 05:01:42,918] {logging_mixin.py:104} INFO - [2021-05-16 05:01:42,917] {dag.py:2280} INFO - Setting next_dagrun for GAG_HW2 to None
+[2021-05-16 05:01:42,967] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 1.159 seconds
+[2021-05-16 05:11:48,110] {scheduler_job.py:182} INFO - Started process (PID=58) to work on /opt/airflow/dags/dag.py
+[2021-05-16 05:11:48,115] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 05:11:48,117] {logging_mixin.py:104} INFO - [2021-05-16 05:11:48,117] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 05:12:18,785] {logging_mixin.py:104} INFO - [2021-05-16 05:12:18,785] {timeout.py:36} ERROR - Process timed out, PID: 58
+[2021-05-16 05:12:21,262] {logging_mixin.py:104} INFO - [2021-05-16 05:12:21,192] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 69, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 98, in __init__
+    stacklevel=2,
+  File "/usr/local/lib/python3.6/warnings.py", line 99, in _showwarnmsg
+    msg.file, msg.line)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/settings.py", line 112, in custom_show_warning
+    from rich.markup import escape
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/markup.py", line 7, in <module>
+    from ._emoji_replace import _emoji_replace
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/_emoji_replace.py", line 5, in <module>
+    from ._emoji_codes import EMOJI
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/dag.py after 30.0s, PID: 58
+[2021-05-16 05:12:21,272] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2021-05-16 05:12:26,523] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/dag.py took 38.418 seconds
+[2021-05-16 05:13:16,647] {scheduler_job.py:182} INFO - Started process (PID=94) to work on /opt/airflow/dags/dag.py
+[2021-05-16 05:13:16,650] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2021-05-16 05:13:16,652] {logging_mixin.py:104} INFO - [2021-05-16 05:13:16,652] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2021-05-16 05:13:52,774] {logging_mixin.py:104} INFO - [2021-05-16 05:13:52,773] {timeout.py:36} ERROR - Process timed out, PID: 94
+[2021-05-16 05:13:58,214] {logging_mixin.py:104} INFO - [2021-05-16 05:13:55,520] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 4, in <module>
+    import pandas as pd
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/__init__.py", line 177, in <module>
+    import pandas.testing
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/testing.py", line 5, in <module>
+    from pandas._testing import (
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 771, in get_code
+  File "<frozen importlib._bootstrap_external>", line 482, in _validate_bytecode_header
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/dag.py after 30.0s, PID: 94
+[2021-05-16 05:14:00,163] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py

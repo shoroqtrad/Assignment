@@ -1,0 +1,37 @@
+[2021-05-16 04:58:01,124] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: GAG_HW2.getCSV 2021-05-16T04:51:24.897671+00:00 [queued]>
+[2021-05-16 04:58:01,885] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: GAG_HW2.getCSV 2021-05-16T04:51:24.897671+00:00 [queued]>
+[2021-05-16 04:58:01,890] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 04:58:01,891] {taskinstance.py:1069} INFO - Starting attempt 2 of 2
+[2021-05-16 04:58:01,892] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 04:58:27,266] {taskinstance.py:1089} INFO - Executing <Task(BashOperator): getCSV> on 2021-05-16T04:51:24.897671+00:00
+[2021-05-16 04:58:28,704] {standard_task_runner.py:52} INFO - Started process 62 to run task
+[2021-05-16 04:58:30,979] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'GAG_HW2', 'getCSV', '2021-05-16T04:51:24.897671+00:00', '--job-id', '6', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmph1d0p964', '--error-file', '/tmp/tmp3aecwl4a']
+[2021-05-16 04:58:30,982] {standard_task_runner.py:77} INFO - Job 6: Subtask getCSV
+[2021-05-16 04:58:42,761] {logging_mixin.py:104} INFO - Running <TaskInstance: GAG_HW2.getCSV 2021-05-16T04:51:24.897671+00:00 [running]> on host 18c23db526a5
+[2021-05-16 04:58:48,864] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Shrouq_Al-Fuqahaa
+AIRFLOW_CTX_DAG_ID=GAG_HW2
+AIRFLOW_CTX_TASK_ID=getCSV
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-16T04:51:24.897671+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-05-16T04:51:24.897671+00:00
+[2021-05-16 04:58:48,872] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2021-05-16 04:58:48,879] {bash.py:158} INFO - Running command: psql postgresql://postgres:postgres@de_postgres:5432 -c "\copy table1 to '/home/airflow/data/None.csv' csv header ;"
+[2021-05-16 04:58:48,933] {bash.py:169} INFO - Output:
+[2021-05-16 04:58:52,231] {bash.py:173} INFO - /home/airflow/data/None.csv: Permission denied
+[2021-05-16 04:58:52,236] {bash.py:177} INFO - Command exited with return code 1
+[2021-05-16 04:58:53,777] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 180, in execute
+    raise AirflowException('Bash command failed. The command returned a non-zero exit code.')
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code.
+[2021-05-16 04:58:54,302] {taskinstance.py:1532} INFO - Marking task as FAILED. dag_id=GAG_HW2, task_id=getCSV, execution_date=20210516T045124, start_date=20210516T045801, end_date=20210516T045854
+[2021-05-16 04:59:04,771] {local_task_job.py:146} INFO - Task exited with return code 1

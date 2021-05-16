@@ -1,0 +1,23 @@
+[2021-05-16 04:52:12,771] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: GAG_HW2.ID_generator 2021-05-16T04:51:24.897671+00:00 [queued]>
+[2021-05-16 04:52:14,123] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: GAG_HW2.ID_generator 2021-05-16T04:51:24.897671+00:00 [queued]>
+[2021-05-16 04:52:14,125] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 04:52:14,126] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-05-16 04:52:14,127] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-05-16 04:52:14,181] {taskinstance.py:1089} INFO - Executing <Task(PythonOperator): ID_generator> on 2021-05-16T04:51:24.897671+00:00
+[2021-05-16 04:52:14,204] {standard_task_runner.py:52} INFO - Started process 50 to run task
+[2021-05-16 04:52:14,221] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'GAG_HW2', 'ID_generator', '2021-05-16T04:51:24.897671+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpd7h7mf8n', '--error-file', '/tmp/tmp7ezsj4z4']
+[2021-05-16 04:52:14,224] {standard_task_runner.py:77} INFO - Job 4: Subtask ID_generator
+[2021-05-16 04:52:14,927] {logging_mixin.py:104} INFO - Running <TaskInstance: GAG_HW2.ID_generator 2021-05-16T04:51:24.897671+00:00 [running]> on host 18c23db526a5
+[2021-05-16 04:52:16,510] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Shrouq_Al-Fuqahaa
+AIRFLOW_CTX_DAG_ID=GAG_HW2
+AIRFLOW_CTX_TASK_ID=ID_generator
+AIRFLOW_CTX_EXECUTION_DATE=2021-05-16T04:51:24.897671+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-05-16T04:51:24.897671+00:00
+[2021-05-16 04:52:16,519] {dag.py:32} INFO - id: 42d11c46-f2c9-413f-9d17-a058bc1ef5c6
+[2021-05-16 04:52:16,833] {python.py:118} INFO - Done. Returned value was: None
+[2021-05-16 04:52:17,034] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=GAG_HW2, task_id=ID_generator, execution_date=20210516T045124, start_date=20210516T045212, end_date=20210516T045217
+[2021-05-16 04:52:17,496] {taskinstance.py:1246} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-05-16 04:52:17,527] {local_task_job.py:146} INFO - Task exited with return code 0

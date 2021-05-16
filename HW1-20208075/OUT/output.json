@@ -1,0 +1,1650 @@
+[
+ {
+   "id": 1077501,
+   "year": 2011,
+   "annual_inc": 24000,
+   "income_cat": 1,
+   "loan_amount": 5000,
+   "recoveries": 0
+ },
+ {
+   "id": 1077430,
+   "year": 2011,
+   "annual_inc": 30000,
+   "income_cat": 1,
+   "loan_amount": 2500,
+   "recoveries": 117.08
+ },
+ {
+   "id": 1077175,
+   "year": 2011,
+   "annual_inc": 12252,
+   "income_cat": 1,
+   "loan_amount": 2400,
+   "recoveries": 0
+ },
+ {
+   "id": 1076863,
+   "year": 2011,
+   "annual_inc": 49200,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1075358,
+   "year": 2011,
+   "annual_inc": 80000,
+   "income_cat": 1,
+   "loan_amount": 3000,
+   "recoveries": 0
+ },
+ {
+   "id": 1075269,
+   "year": 2011,
+   "annual_inc": 36000,
+   "income_cat": 1,
+   "loan_amount": 5000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069639,
+   "year": 2011,
+   "annual_inc": 47004,
+   "income_cat": 1,
+   "loan_amount": 7000,
+   "recoveries": 0
+ },
+ {
+   "id": 1072053,
+   "year": 2011,
+   "annual_inc": 48000,
+   "income_cat": 1,
+   "loan_amount": 3000,
+   "recoveries": 0
+ },
+ {
+   "id": 1071795,
+   "year": 2011,
+   "annual_inc": 40000,
+   "income_cat": 1,
+   "loan_amount": 5600,
+   "recoveries": 189.06
+ },
+ {
+   "id": 1071570,
+   "year": 2011,
+   "annual_inc": 15000,
+   "income_cat": 1,
+   "loan_amount": 5375,
+   "recoveries": 269.29
+ },
+ {
+   "id": 1070078,
+   "year": 2011,
+   "annual_inc": 72000,
+   "income_cat": 1,
+   "loan_amount": 6500,
+   "recoveries": 0
+ },
+ {
+   "id": 1069908,
+   "year": 2011,
+   "annual_inc": 75000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1064687,
+   "year": 2011,
+   "annual_inc": 30000,
+   "income_cat": 1,
+   "loan_amount": 9000,
+   "recoveries": 444.3
+ },
+ {
+   "id": 1069866,
+   "year": 2011,
+   "annual_inc": 15000,
+   "income_cat": 1,
+   "loan_amount": 3000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069057,
+   "year": 2011,
+   "annual_inc": 100000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 645.1
+ },
+ {
+   "id": 1069759,
+   "year": 2011,
+   "annual_inc": 28000,
+   "income_cat": 1,
+   "loan_amount": 1000,
+   "recoveries": 0
+ },
+ {
+   "id": 1065775,
+   "year": 2011,
+   "annual_inc": 42000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069971,
+   "year": 2011,
+   "annual_inc": 110000,
+   "income_cat": 2,
+   "loan_amount": 3600,
+   "recoveries": 0
+ },
+ {
+   "id": 1062474,
+   "year": 2011,
+   "annual_inc": 84000,
+   "income_cat": 1,
+   "loan_amount": 6000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069742,
+   "year": 2011,
+   "annual_inc": 77385,
+   "income_cat": 1,
+   "loan_amount": 9200,
+   "recoveries": 0
+ },
+ {
+   "id": 1069740,
+   "year": 2011,
+   "annual_inc": 43370,
+   "income_cat": 1,
+   "loan_amount": 20250,
+   "recoveries": 0
+ },
+ {
+   "id": 1039153,
+   "year": 2011,
+   "annual_inc": 105000,
+   "income_cat": 2,
+   "loan_amount": 21000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069710,
+   "year": 2011,
+   "annual_inc": 50000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069700,
+   "year": 2011,
+   "annual_inc": 50000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069559,
+   "year": 2011,
+   "annual_inc": 76000,
+   "income_cat": 1,
+   "loan_amount": 6000,
+   "recoveries": 269.31
+ },
+ {
+   "id": 1069697,
+   "year": 2011,
+   "annual_inc": 92000,
+   "income_cat": 1,
+   "loan_amount": 15000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069800,
+   "year": 2011,
+   "annual_inc": 60000,
+   "income_cat": 1,
+   "loan_amount": 15000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069657,
+   "year": 2011,
+   "annual_inc": 50004,
+   "income_cat": 1,
+   "loan_amount": 5000,
+   "recoveries": 260.96
+ },
+ {
+   "id": 1069799,
+   "year": 2011,
+   "annual_inc": 106000,
+   "income_cat": 2,
+   "loan_amount": 4000,
+   "recoveries": 0
+ },
+ {
+   "id": 1047704,
+   "year": 2011,
+   "annual_inc": 25000,
+   "income_cat": 1,
+   "loan_amount": 8500,
+   "recoveries": 0
+ },
+ {
+   "id": 1032111,
+   "year": 2011,
+   "annual_inc": 17108,
+   "income_cat": 1,
+   "loan_amount": 4375,
+   "recoveries": 0
+ },
+ {
+   "id": 1069539,
+   "year": 2011,
+   "annual_inc": 75000,
+   "income_cat": 1,
+   "loan_amount": 31825,
+   "recoveries": 0
+ },
+ {
+   "id": 1065420,
+   "year": 2011,
+   "annual_inc": 29120,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069591,
+   "year": 2011,
+   "annual_inc": 24044,
+   "income_cat": 1,
+   "loan_amount": 5000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069530,
+   "year": 2011,
+   "annual_inc": 34000,
+   "income_cat": 1,
+   "loan_amount": 7000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069522,
+   "year": 2011,
+   "annual_inc": 41000,
+   "income_cat": 1,
+   "loan_amount": 12400,
+   "recoveries": 0
+ },
+ {
+   "id": 1069361,
+   "year": 2011,
+   "annual_inc": 55596,
+   "income_cat": 1,
+   "loan_amount": 10800,
+   "recoveries": 0
+ },
+ {
+   "id": 1069357,
+   "year": 2011,
+   "annual_inc": 45000,
+   "income_cat": 1,
+   "loan_amount": 15000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069356,
+   "year": 2011,
+   "annual_inc": 36852,
+   "income_cat": 1,
+   "loan_amount": 6000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069346,
+   "year": 2011,
+   "annual_inc": 27000,
+   "income_cat": 1,
+   "loan_amount": 12500,
+   "recoveries": 0
+ },
+ {
+   "id": 1067573,
+   "year": 2011,
+   "annual_inc": 68004,
+   "income_cat": 1,
+   "loan_amount": 9600,
+   "recoveries": 0
+ },
+ {
+   "id": 1069506,
+   "year": 2011,
+   "annual_inc": 62300,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069314,
+   "year": 2011,
+   "annual_inc": 65000,
+   "income_cat": 1,
+   "loan_amount": 3000,
+   "recoveries": 0
+ },
+ {
+   "id": 1060578,
+   "year": 2011,
+   "annual_inc": 55000,
+   "income_cat": 1,
+   "loan_amount": 4400,
+   "recoveries": 0
+ },
+ {
+   "id": 1069469,
+   "year": 2011,
+   "annual_inc": 45600,
+   "income_cat": 1,
+   "loan_amount": 6000,
+   "recoveries": 0
+ },
+ {
+   "id": 1051117,
+   "year": 2011,
+   "annual_inc": 80000,
+   "income_cat": 1,
+   "loan_amount": 14000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069465,
+   "year": 2011,
+   "annual_inc": 100000,
+   "income_cat": 1,
+   "loan_amount": 5000,
+   "recoveries": 107
+ },
+ {
+   "id": 1069283,
+   "year": 2011,
+   "annual_inc": 27000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069287,
+   "year": 2011,
+   "annual_inc": 60000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069453,
+   "year": 2011,
+   "annual_inc": 70000,
+   "income_cat": 1,
+   "loan_amount": 11000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069248,
+   "year": 2011,
+   "annual_inc": 80000,
+   "income_cat": 1,
+   "loan_amount": 15000,
+   "recoveries": 222.81
+ },
+ {
+   "id": 1068120,
+   "year": 2011,
+   "annual_inc": 110000,
+   "income_cat": 2,
+   "loan_amount": 25600,
+   "recoveries": 0
+ },
+ {
+   "id": 1069244,
+   "year": 2011,
+   "annual_inc": 40000,
+   "income_cat": 1,
+   "loan_amount": 7000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069243,
+   "year": 2011,
+   "annual_inc": 50000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 578.94
+ },
+ {
+   "id": 1069238,
+   "year": 2011,
+   "annual_inc": 46000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069410,
+   "year": 2011,
+   "annual_inc": 50000,
+   "income_cat": 1,
+   "loan_amount": 21000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068409,
+   "year": 2011,
+   "annual_inc": 81000,
+   "income_cat": 1,
+   "loan_amount": 16000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068487,
+   "year": 2011,
+   "annual_inc": 39000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1043961,
+   "year": 2011,
+   "annual_inc": 51400,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068945,
+   "year": 2011,
+   "annual_inc": 33000,
+   "income_cat": 1,
+   "loan_amount": 7100,
+   "recoveries": 0
+ },
+ {
+   "id": 1069142,
+   "year": 2011,
+   "annual_inc": 30000,
+   "income_cat": 1,
+   "loan_amount": 13000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068934,
+   "year": 2011,
+   "annual_inc": 40000,
+   "income_cat": 1,
+   "loan_amount": 17500,
+   "recoveries": 0
+ },
+ {
+   "id": 1069136,
+   "year": 2011,
+   "annual_inc": 50000,
+   "income_cat": 1,
+   "loan_amount": 17675,
+   "recoveries": 0
+ },
+ {
+   "id": 1068923,
+   "year": 2011,
+   "annual_inc": 62000,
+   "income_cat": 1,
+   "loan_amount": 8000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069126,
+   "year": 2011,
+   "annual_inc": 45996,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 847.3
+ },
+ {
+   "id": 1069102,
+   "year": 2011,
+   "annual_inc": 55000,
+   "income_cat": 1,
+   "loan_amount": 3500,
+   "recoveries": 0
+ },
+ {
+   "id": 1069093,
+   "year": 2011,
+   "annual_inc": 30000,
+   "income_cat": 1,
+   "loan_amount": 12500,
+   "recoveries": 22.5
+ },
+ {
+   "id": 1069030,
+   "year": 2011,
+   "annual_inc": 44544,
+   "income_cat": 1,
+   "loan_amount": 16425,
+   "recoveries": 0
+ },
+ {
+   "id": 1068906,
+   "year": 2011,
+   "annual_inc": 75000,
+   "income_cat": 1,
+   "loan_amount": 8200,
+   "recoveries": 381.89
+ },
+ {
+   "id": 1069073,
+   "year": 2011,
+   "annual_inc": 61000,
+   "income_cat": 1,
+   "loan_amount": 15000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069043,
+   "year": 2011,
+   "annual_inc": 44000,
+   "income_cat": 1,
+   "loan_amount": 20975,
+   "recoveries": 0
+ },
+ {
+   "id": 1060981,
+   "year": 2011,
+   "annual_inc": 75000,
+   "income_cat": 1,
+   "loan_amount": 6400,
+   "recoveries": 10.29
+ },
+ {
+   "id": 1069071,
+   "year": 2011,
+   "annual_inc": 33600,
+   "income_cat": 1,
+   "loan_amount": 3000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069070,
+   "year": 2011,
+   "annual_inc": 50000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068893,
+   "year": 2011,
+   "annual_inc": 150000,
+   "income_cat": 2,
+   "loan_amount": 14400,
+   "recoveries": 0
+ },
+ {
+   "id": 1068882,
+   "year": 2011,
+   "annual_inc": 90000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1069039,
+   "year": 2011,
+   "annual_inc": 48000,
+   "income_cat": 1,
+   "loan_amount": 11000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068416,
+   "year": 2011,
+   "annual_inc": 75000,
+   "income_cat": 1,
+   "loan_amount": 7250,
+   "recoveries": 0
+ },
+ {
+   "id": 1068997,
+   "year": 2011,
+   "annual_inc": 52000,
+   "income_cat": 1,
+   "loan_amount": 15000,
+   "recoveries": 0
+ },
+ {
+   "id": 1048390,
+   "year": 2011,
+   "annual_inc": 65000,
+   "income_cat": 1,
+   "loan_amount": 18000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068994,
+   "year": 2011,
+   "annual_inc": 150000,
+   "income_cat": 2,
+   "loan_amount": 35000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068475,
+   "year": 2011,
+   "annual_inc": 68000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068989,
+   "year": 2011,
+   "annual_inc": 42000,
+   "income_cat": 1,
+   "loan_amount": 11800,
+   "recoveries": 0
+ },
+ {
+   "id": 1068967,
+   "year": 2011,
+   "annual_inc": 53000,
+   "income_cat": 1,
+   "loan_amount": 4500,
+   "recoveries": 0
+ },
+ {
+   "id": 1068744,
+   "year": 2011,
+   "annual_inc": 35000,
+   "income_cat": 1,
+   "loan_amount": 7000,
+   "recoveries": 0
+ },
+ {
+   "id": 1045509,
+   "year": 2011,
+   "annual_inc": 60000,
+   "income_cat": 1,
+   "loan_amount": 9200,
+   "recoveries": 0
+ },
+ {
+   "id": 1063958,
+   "year": 2011,
+   "annual_inc": 28000,
+   "income_cat": 1,
+   "loan_amount": 14000,
+   "recoveries": 0
+ },
+ {
+   "id": 1041756,
+   "year": 2011,
+   "annual_inc": 42000,
+   "income_cat": 1,
+   "loan_amount": 4500,
+   "recoveries": 0
+ },
+ {
+   "id": 1068694,
+   "year": 2011,
+   "annual_inc": 88365,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068792,
+   "year": 2011,
+   "annual_inc": 72000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068558,
+   "year": 2011,
+   "annual_inc": 62000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068322,
+   "year": 2011,
+   "annual_inc": 43680,
+   "income_cat": 1,
+   "loan_amount": 7000,
+   "recoveries": 0
+ },
+ {
+   "id": 1065674,
+   "year": 2011,
+   "annual_inc": 120000,
+   "income_cat": 2,
+   "loan_amount": 8200,
+   "recoveries": 0
+ },
+ {
+   "id": 1068547,
+   "year": 2011,
+   "annual_inc": 66000,
+   "income_cat": 1,
+   "loan_amount": 10500,
+   "recoveries": 0
+ },
+ {
+   "id": 1068545,
+   "year": 2011,
+   "annual_inc": 39120,
+   "income_cat": 1,
+   "loan_amount": 7000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068575,
+   "year": 2011,
+   "annual_inc": 85000,
+   "income_cat": 1,
+   "loan_amount": 15300,
+   "recoveries": 0
+ },
+ {
+   "id": 1049528,
+   "year": 2011,
+   "annual_inc": 47800,
+   "income_cat": 1,
+   "loan_amount": 20000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068542,
+   "year": 2011,
+   "annual_inc": 45000,
+   "income_cat": 1,
+   "loan_amount": 17500,
+   "recoveries": 3486
+ },
+ {
+   "id": 1068350,
+   "year": 2011,
+   "annual_inc": 83000,
+   "income_cat": 1,
+   "loan_amount": 3500,
+   "recoveries": 0
+ },
+ {
+   "id": 1067874,
+   "year": 2011,
+   "annual_inc": 81000,
+   "income_cat": 1,
+   "loan_amount": 6000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068509,
+   "year": 2011,
+   "annual_inc": 25000,
+   "income_cat": 1,
+   "loan_amount": 6200,
+   "recoveries": 258.27
+ },
+ {
+   "id": 1034693,
+   "year": 2011,
+   "annual_inc": 65000,
+   "income_cat": 1,
+   "loan_amount": 16000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068508,
+   "year": 2011,
+   "annual_inc": 28800,
+   "income_cat": 1,
+   "loan_amount": 6000,
+   "recoveries": 0
+ },
+ {
+   "id": 1066641,
+   "year": 2011,
+   "annual_inc": 135000,
+   "income_cat": 2,
+   "loan_amount": 7200,
+   "recoveries": 0
+ },
+ {
+   "id": 1068315,
+   "year": 2011,
+   "annual_inc": 50000,
+   "income_cat": 1,
+   "loan_amount": 9500,
+   "recoveries": 0
+ },
+ {
+   "id": 1068309,
+   "year": 2011,
+   "annual_inc": 38000,
+   "income_cat": 1,
+   "loan_amount": 18825,
+   "recoveries": 3343.79
+ },
+ {
+   "id": 1068326,
+   "year": 2011,
+   "annual_inc": 45000,
+   "income_cat": 1,
+   "loan_amount": 24000,
+   "recoveries": 0
+ },
+ {
+   "id": 1066767,
+   "year": 2011,
+   "annual_inc": 80000,
+   "income_cat": 1,
+   "loan_amount": 6000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068484,
+   "year": 2011,
+   "annual_inc": 50000,
+   "income_cat": 1,
+   "loan_amount": 6000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068292,
+   "year": 2011,
+   "annual_inc": 30000,
+   "income_cat": 1,
+   "loan_amount": 2100,
+   "recoveries": 0
+ },
+ {
+   "id": 1068273,
+   "year": 2011,
+   "annual_inc": 110000,
+   "income_cat": 2,
+   "loan_amount": 5500,
+   "recoveries": 0
+ },
+ {
+   "id": 1068274,
+   "year": 2011,
+   "annual_inc": 45608,
+   "income_cat": 1,
+   "loan_amount": 11000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068440,
+   "year": 2011,
+   "annual_inc": 120000,
+   "income_cat": 2,
+   "loan_amount": 26800,
+   "recoveries": 0
+ },
+ {
+   "id": 1046456,
+   "year": 2011,
+   "annual_inc": 35000,
+   "income_cat": 1,
+   "loan_amount": 8000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068012,
+   "year": 2011,
+   "annual_inc": 75000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 229.06
+ },
+ {
+   "id": 1055725,
+   "year": 2011,
+   "annual_inc": 35000,
+   "income_cat": 1,
+   "loan_amount": 8000,
+   "recoveries": 0
+ },
+ {
+   "id": 1061814,
+   "year": 2011,
+   "annual_inc": 24000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068232,
+   "year": 2011,
+   "annual_inc": 126000,
+   "income_cat": 2,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068405,
+   "year": 2011,
+   "annual_inc": 43000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068395,
+   "year": 2011,
+   "annual_inc": 50000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068202,
+   "year": 2011,
+   "annual_inc": 67000,
+   "income_cat": 1,
+   "loan_amount": 25000,
+   "recoveries": 2010.58
+ },
+ {
+   "id": 1068006,
+   "year": 2011,
+   "annual_inc": 45000,
+   "income_cat": 1,
+   "loan_amount": 19750,
+   "recoveries": 641.29
+ },
+ {
+   "id": 1068075,
+   "year": 2011,
+   "annual_inc": 31200,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1065642,
+   "year": 2011,
+   "annual_inc": 66000,
+   "income_cat": 1,
+   "loan_amount": 13650,
+   "recoveries": 0
+ },
+ {
+   "id": 1068179,
+   "year": 2011,
+   "annual_inc": 52000,
+   "income_cat": 1,
+   "loan_amount": 28000,
+   "recoveries": 3132.16
+ },
+ {
+   "id": 1068158,
+   "year": 2011,
+   "annual_inc": 56964,
+   "income_cat": 1,
+   "loan_amount": 18000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068180,
+   "year": 2011,
+   "annual_inc": 49500,
+   "income_cat": 1,
+   "loan_amount": 2500,
+   "recoveries": 0
+ },
+ {
+   "id": 1065673,
+   "year": 2011,
+   "annual_inc": 70000,
+   "income_cat": 1,
+   "loan_amount": 21000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068159,
+   "year": 2011,
+   "annual_inc": 125000,
+   "income_cat": 2,
+   "loan_amount": 35000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068165,
+   "year": 2011,
+   "annual_inc": 33000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1059689,
+   "year": 2011,
+   "annual_inc": 30000,
+   "income_cat": 1,
+   "loan_amount": 7000,
+   "recoveries": 0
+ },
+ {
+   "id": 1066215,
+   "year": 2011,
+   "annual_inc": 90000,
+   "income_cat": 1,
+   "loan_amount": 24000,
+   "recoveries": 0
+ },
+ {
+   "id": 1063270,
+   "year": 2011,
+   "annual_inc": 23000,
+   "income_cat": 1,
+   "loan_amount": 10625,
+   "recoveries": 0
+ },
+ {
+   "id": 1067931,
+   "year": 2011,
+   "annual_inc": 24000,
+   "income_cat": 1,
+   "loan_amount": 5000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067922,
+   "year": 2011,
+   "annual_inc": 62000,
+   "income_cat": 1,
+   "loan_amount": 8850,
+   "recoveries": 0
+ },
+ {
+   "id": 1067919,
+   "year": 2011,
+   "annual_inc": 44000,
+   "income_cat": 1,
+   "loan_amount": 6375,
+   "recoveries": 0
+ },
+ {
+   "id": 1068106,
+   "year": 2011,
+   "annual_inc": 90000,
+   "income_cat": 1,
+   "loan_amount": 6000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068111,
+   "year": 2011,
+   "annual_inc": 41000,
+   "income_cat": 1,
+   "loan_amount": 11100,
+   "recoveries": 626.5
+ },
+ {
+   "id": 1067655,
+   "year": 2011,
+   "annual_inc": 56000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1060662,
+   "year": 2011,
+   "annual_inc": 26500,
+   "income_cat": 1,
+   "loan_amount": 6200,
+   "recoveries": 0
+ },
+ {
+   "id": 1061304,
+   "year": 2011,
+   "annual_inc": 54000,
+   "income_cat": 1,
+   "loan_amount": 15000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068095,
+   "year": 2011,
+   "annual_inc": 53000,
+   "income_cat": 1,
+   "loan_amount": 4200,
+   "recoveries": 0
+ },
+ {
+   "id": 1067182,
+   "year": 2011,
+   "annual_inc": 52800,
+   "income_cat": 1,
+   "loan_amount": 14000,
+   "recoveries": 0
+ },
+ {
+   "id": 822464,
+   "year": 2011,
+   "annual_inc": 38000,
+   "income_cat": 1,
+   "loan_amount": 8875,
+   "recoveries": 0
+ },
+ {
+   "id": 1063526,
+   "year": 2011,
+   "annual_inc": 38000,
+   "income_cat": 1,
+   "loan_amount": 13500,
+   "recoveries": 0
+ },
+ {
+   "id": 1068091,
+   "year": 2011,
+   "annual_inc": 42000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 414.89
+ },
+ {
+   "id": 1068090,
+   "year": 2011,
+   "annual_inc": 55000,
+   "income_cat": 1,
+   "loan_amount": 16000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068082,
+   "year": 2011,
+   "annual_inc": 60000,
+   "income_cat": 1,
+   "loan_amount": 21600,
+   "recoveries": 0
+ },
+ {
+   "id": 1068078,
+   "year": 2011,
+   "annual_inc": 87000,
+   "income_cat": 1,
+   "loan_amount": 6000,
+   "recoveries": 0
+ },
+ {
+   "id": 1057633,
+   "year": 2011,
+   "annual_inc": 25000,
+   "income_cat": 1,
+   "loan_amount": 8450,
+   "recoveries": 0
+ },
+ {
+   "id": 1046204,
+   "year": 2011,
+   "annual_inc": 82000,
+   "income_cat": 1,
+   "loan_amount": 20000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067794,
+   "year": 2011,
+   "annual_inc": 60000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 319.46
+ },
+ {
+   "id": 1067816,
+   "year": 2011,
+   "annual_inc": 80000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1068018,
+   "year": 2011,
+   "annual_inc": 25000,
+   "income_cat": 1,
+   "loan_amount": 13475,
+   "recoveries": 0
+ },
+ {
+   "id": 1052996,
+   "year": 2011,
+   "annual_inc": 48000,
+   "income_cat": 1,
+   "loan_amount": 7200,
+   "recoveries": 0
+ },
+ {
+   "id": 1067818,
+   "year": 2011,
+   "annual_inc": 85000,
+   "income_cat": 1,
+   "loan_amount": 5600,
+   "recoveries": 0
+ },
+ {
+   "id": 1064842,
+   "year": 2011,
+   "annual_inc": 57000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067109,
+   "year": 2011,
+   "annual_inc": 25000,
+   "income_cat": 1,
+   "loan_amount": 8500,
+   "recoveries": 0
+ },
+ {
+   "id": 1067971,
+   "year": 2011,
+   "annual_inc": 34000,
+   "income_cat": 1,
+   "loan_amount": 8000,
+   "recoveries": 0
+ },
+ {
+   "id": 1057518,
+   "year": 2011,
+   "annual_inc": 40000,
+   "income_cat": 1,
+   "loan_amount": 8000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067473,
+   "year": 2011,
+   "annual_inc": 42656,
+   "income_cat": 1,
+   "loan_amount": 16000,
+   "recoveries": 0
+ },
+ {
+   "id": 1062177,
+   "year": 2011,
+   "annual_inc": 44400,
+   "income_cat": 1,
+   "loan_amount": 15000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067447,
+   "year": 2011,
+   "annual_inc": 30000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1059412,
+   "year": 2011,
+   "annual_inc": 70000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1062608,
+   "year": 2011,
+   "annual_inc": 28000,
+   "income_cat": 1,
+   "loan_amount": 8000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067664,
+   "year": 2011,
+   "annual_inc": 50000,
+   "income_cat": 1,
+   "loan_amount": 22000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067441,
+   "year": 2011,
+   "annual_inc": 94800,
+   "income_cat": 1,
+   "loan_amount": 6000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067654,
+   "year": 2011,
+   "annual_inc": 40000,
+   "income_cat": 1,
+   "loan_amount": 16000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067644,
+   "year": 2011,
+   "annual_inc": 12000,
+   "income_cat": 1,
+   "loan_amount": 2500,
+   "recoveries": 10.08
+ },
+ {
+   "id": 1062288,
+   "year": 2011,
+   "annual_inc": 36000,
+   "income_cat": 1,
+   "loan_amount": 13500,
+   "recoveries": 0
+ },
+ {
+   "id": 1067434,
+   "year": 2011,
+   "annual_inc": 225000,
+   "income_cat": 3,
+   "loan_amount": 25000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067419,
+   "year": 2011,
+   "annual_inc": 45900,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067601,
+   "year": 2011,
+   "annual_inc": 27200,
+   "income_cat": 1,
+   "loan_amount": 2500,
+   "recoveries": 0
+ },
+ {
+   "id": 1067579,
+   "year": 2011,
+   "annual_inc": 42000,
+   "income_cat": 1,
+   "loan_amount": 7325,
+   "recoveries": 0
+ },
+ {
+   "id": 1067563,
+   "year": 2011,
+   "annual_inc": 135000,
+   "income_cat": 2,
+   "loan_amount": 4000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067364,
+   "year": 2011,
+   "annual_inc": 65000,
+   "income_cat": 1,
+   "loan_amount": 10000,
+   "recoveries": 459.53
+ },
+ {
+   "id": 1067152,
+   "year": 2011,
+   "annual_inc": 24000,
+   "income_cat": 1,
+   "loan_amount": 7750,
+   "recoveries": 11.91
+ },
+ {
+   "id": 1062471,
+   "year": 2011,
+   "annual_inc": 70000,
+   "income_cat": 1,
+   "loan_amount": 20000,
+   "recoveries": 1073.61
+ },
+ {
+   "id": 1066842,
+   "year": 2011,
+   "annual_inc": 65000,
+   "income_cat": 1,
+   "loan_amount": 9600,
+   "recoveries": 0
+ },
+ {
+   "id": 1067126,
+   "year": 2011,
+   "annual_inc": 60000,
+   "income_cat": 1,
+   "loan_amount": 21000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067326,
+   "year": 2011,
+   "annual_inc": 30000,
+   "income_cat": 1,
+   "loan_amount": 14000,
+   "recoveries": 0
+ },
+ {
+   "id": 1066789,
+   "year": 2011,
+   "annual_inc": 43000,
+   "income_cat": 1,
+   "loan_amount": 13350,
+   "recoveries": 0
+ },
+ {
+   "id": 1067324,
+   "year": 2011,
+   "annual_inc": 42000,
+   "income_cat": 1,
+   "loan_amount": 15000,
+   "recoveries": 1084.71
+ },
+ {
+   "id": 1067102,
+   "year": 2011,
+   "annual_inc": 75000,
+   "income_cat": 1,
+   "loan_amount": 15000,
+   "recoveries": 15.16
+ },
+ {
+   "id": 1046969,
+   "year": 2011,
+   "annual_inc": 129000,
+   "income_cat": 2,
+   "loan_amount": 11000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067084,
+   "year": 2011,
+   "annual_inc": 168000,
+   "income_cat": 2,
+   "loan_amount": 35000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067090,
+   "year": 2011,
+   "annual_inc": 74000,
+   "income_cat": 1,
+   "loan_amount": 9000,
+   "recoveries": 0
+ },
+ {
+   "id": 1060875,
+   "year": 2011,
+   "annual_inc": 52000,
+   "income_cat": 1,
+   "loan_amount": 22475,
+   "recoveries": 0
+ },
+ {
+   "id": 1067265,
+   "year": 2011,
+   "annual_inc": 58500,
+   "income_cat": 1,
+   "loan_amount": 16000,
+   "recoveries": 10.47
+ },
+ {
+   "id": 1067287,
+   "year": 2011,
+   "annual_inc": 71000,
+   "income_cat": 1,
+   "loan_amount": 13500,
+   "recoveries": 0
+ },
+ {
+   "id": 1067066,
+   "year": 2011,
+   "annual_inc": 75000,
+   "income_cat": 1,
+   "loan_amount": 24000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067283,
+   "year": 2011,
+   "annual_inc": 60000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067266,
+   "year": 2011,
+   "annual_inc": 87996,
+   "income_cat": 1,
+   "loan_amount": 8400,
+   "recoveries": 0
+ },
+ {
+   "id": 1066635,
+   "year": 2011,
+   "annual_inc": 140000,
+   "income_cat": 2,
+   "loan_amount": 28000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067026,
+   "year": 2011,
+   "annual_inc": 66000,
+   "income_cat": 1,
+   "loan_amount": 14000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067038,
+   "year": 2011,
+   "annual_inc": 70000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 543.42
+ },
+ {
+   "id": 1067030,
+   "year": 2011,
+   "annual_inc": 100000,
+   "income_cat": 1,
+   "loan_amount": 25000,
+   "recoveries": 0
+ },
+ {
+   "id": 1065350,
+   "year": 2011,
+   "annual_inc": 50000,
+   "income_cat": 1,
+   "loan_amount": 9000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067028,
+   "year": 2011,
+   "annual_inc": 35000,
+   "income_cat": 1,
+   "loan_amount": 13250,
+   "recoveries": 0
+ },
+ {
+   "id": 1061877,
+   "year": 2011,
+   "annual_inc": 75000,
+   "income_cat": 1,
+   "loan_amount": 20000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067018,
+   "year": 2011,
+   "annual_inc": 71000,
+   "income_cat": 1,
+   "loan_amount": 3000,
+   "recoveries": 0
+ },
+ {
+   "id": 1067223,
+   "year": 2011,
+   "annual_inc": 48000,
+   "income_cat": 1,
+   "loan_amount": 7350,
+   "recoveries": 0
+ },
+ {
+   "id": 1067004,
+   "year": 2011,
+   "annual_inc": 36000,
+   "income_cat": 1,
+   "loan_amount": 11500,
+   "recoveries": 0
+ },
+ {
+   "id": 1031265,
+   "year": 2011,
+   "annual_inc": 86000,
+   "income_cat": 1,
+   "loan_amount": 13650,
+   "recoveries": 460.64
+ },
+ {
+   "id": 1066835,
+   "year": 2011,
+   "annual_inc": 30000,
+   "income_cat": 1,
+   "loan_amount": 10500,
+   "recoveries": 0
+ },
+ {
+   "id": 1067181,
+   "year": 2011,
+   "annual_inc": 60000,
+   "income_cat": 1,
+   "loan_amount": 12000,
+   "recoveries": 0
+ }
+]
