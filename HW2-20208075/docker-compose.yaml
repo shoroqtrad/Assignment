@@ -25,6 +25,14 @@ x-airflow-common:
       condition: service_healthy
 
 services:
+
+  airflow-webserver:
+    container_name: airflow
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - 8080:8080
+     
   redis:
     image: redis:latest
     ports:
@@ -34,31 +42,27 @@ services:
       interval: 10s
       timeout: 40s
       retries: 50
-    restart: always
-
-  airflow-webserver:
-    container_name: airflow
-    <<: *airflow-common
-    command: webserver
-    ports:
-      - 8080:8080
+    restart: always     
+      
     healthcheck:
       test: [ "CMD", "curl", "--fail", "http://localhost:8080/health" ]
       interval: 15s
       timeout: 20s
       retries: 5
     restart: always
-
-  airflow-scheduler:
-    <<: *airflow-common
-    command: scheduler
-    restart: always
-
+    
+    
   airflow-worker:
     container_name: airflow_worker
     <<: *airflow-common
     command: celery worker
     restart: always
+    
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    restart: always
+
 
   airflow-init:
     <<: *airflow-common
@@ -91,20 +95,15 @@ services:
       MONGO_INITDB_ROOT_USERNAME: shrouq
       MONGO_INITDB_ROOT_PASSWORD: shrouq
 
-  de_postgres:
-    container_name: de_postgres
+  postgres:
+    container_name: postgres
     image: 'postgres:13.2'
     ports:
       - 5432:5432
     environment:
       POSTGRES_PASSWORD: postgres
       PGDATA: /var/lib/postgresql/data/pgdata
-  postgres:
-    image: postgres:13
-    environment:
-      POSTGRES_USER: shrouq
-      POSTGRES_PASSWORD: shrouq
-      POSTGRES_DB: airflow
+
     volumes:
       - ./postgres:/var/lib/postgresql/data
     healthcheck:
