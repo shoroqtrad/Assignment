@@ -1,11 +1,11 @@
-from airflow.operators.python import PythonOperator
-from airflow.operators.bash import BashOperator
-import logging
-import pandas as pd
 import json
 from datetime import timedelta
 from airflow.utils.dates import days_ago
+import logging
+import pandas as pd
 from airflow import DAG
+from airflow.operators.python import PythonOperator
+from airflow.operators.bash import BashOperator
 #pip3 install_pymongo
 
 LOGGER = logging.getLogger("Airflow_TASK")
