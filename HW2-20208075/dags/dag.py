@@ -8,7 +8,7 @@ from airflow.utils.dates import days_ago
 from airflow import DAG
 #pip3 install_pymongo
 
-LOGGER = logging.getLogger("airflow.task")
+LOGGER = logging.getLogger("Airflow_TASK")
 
 default_args = {
     'owner': 'Shrouq_Al-Fuqahaa',
@@ -29,20 +29,9 @@ with DAG(
     def ID_generator(**kwargs):
         import uuid
         id = uuid.uuid4()
-        LOGGER.info('id: ' + str(id))
+        LOGGER.info('ID' + str(id))
         ti = kwargs['ti']
         ti.xcom_push(key='file_id', value=str(id))
-
-    def converter(**kwargs):
-        ti = kwargs['ti']
-        id = ti.xcom_pull(key='file_id', task_ids=['generate_id'])[0]
-        df = pd.read_csv('/home/airflow/data/' + str(id) + '.csv')
-        df.reset_index(inplace=True)
-        dict = df.to_dict("records")
-        LOGGER.info(str(dict))
-        with open('/home/airflow/data/' + str(id) + '.json', 'w') as file:
-            json.dump(dict, file)
-        LOGGER.info('conversion to json done')
 
     def Json2Mongo(**kwargs):
         ti = kwargs['ti']
@@ -61,7 +50,16 @@ with DAG(
             file_data = json.load(file)
             Collection.insert_many(file_data)
 
-
+     def converter(**kwargs):
+        ti = kwargs['ti']
+        id = ti.xcom_pull(key='file_id', task_ids=['generate_id'])[0]
+        df = pd.read_csv('/home/airflow/data/' + str(id) + '.csv')
+        df.reset_index(inplace=True)
+        dict = df.to_dict("Rcords
+        LOGGER.info(str(dict))
+        with open('/home/airflow/data/' + str(id) + '.json', 'w') as file:
+            json.dump(dict, file)
+        LOGGER.info('convert to json ')
     ID_generator= PythonOperator(
         task_id='ID_generator',
         python_callable=ID_generator,
