@@ -69,7 +69,7 @@ with DAG(
 
     getCSV = BashOperator(
         task_id='getCSV',
-        bash_command='psql postgresql://postgres:postgres@de_postgres:5432 -c "\copy table1 to \'/home/airflow/data/{{ti.xcom_pull(key="file_id", task_ids=["generate_id"])[0]}}.csv\' csv header ;"',
+        bash_command='psql postgresql://postgres:postgres@postgres:5432 -c "\copy table1 to \'/home/airflow/data/{{ti.xcom_pull(key="file_id", task_ids=["generate_id"])[0]}}.csv\' csv header ;"',
         dag=dag
     )
     converter = PythonOperator(
