@@ -86,6 +86,4 @@ with DAG(
         provide_context=True,
         dag=dag
     )
-    ID_generator >> getCSV
-    getCSV >> converter
-    converter >> Json2Mongo
+    ID_generator >> getCSV>> converter >> Json2Mongo
