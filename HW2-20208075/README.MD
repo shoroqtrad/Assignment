@@ -10,9 +10,9 @@ then send it to mongoDB as JSON file
 
 4- `docker-compose up -d` # d : mean run in the background 
 5- copy the sql read_script and data inside the container & execute the sql query
-`docker cp ./read_script.sql de_postgres:/file.sql`
-`docker cp ./INPUT.csv de_postgres:/file.csv`
-`docker exec -u postgres de_postgres psql postgres postgres -f /file.sql `
+`docker cp ./read_script.sql postgres:/file.sql`
+`docker cp ./INPUT.csv postgres:/file.csv`
+`docker exec -u postgres postgres psql postgres postgres -f /file.sql `
 `docker exec airflow mkdir -p /home/airflow/data`
 
 6- check the dag [GAG_HW2](./dags/dag.py)
